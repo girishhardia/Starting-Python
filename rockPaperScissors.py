@@ -12,9 +12,9 @@ elif user_input == "rock" and computer_action == "paper":
 elif user_input == "rock" and computer_action == "scissors":
     print("You Won")
 elif user_input == "paper" and computer_action == "rock":
-    print("You Lose")
-elif user_input == "paper" and computer_action == "scissors":
     print("You Won")
+elif user_input == "paper" and computer_action == "scissors":
+    print("You Lose")
 elif user_input == "scissors" and computer_action == "rock":
     print("You Lose")
 elif user_input == "scissors" and computer_action == "paper":
